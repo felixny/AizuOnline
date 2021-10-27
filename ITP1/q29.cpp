@@ -12,9 +12,9 @@ int main(){
     cin >> word;
     int count = 0;
     while (cin >> text && text != "END_OF_TEXT"){
-        /* for (int i = 0; i <text.size(); i++){
+        for (int i = 0; i <text.size(); i++){
             text[i] = tolower(text[i]); // convert text to lower case
-        } */
+        }
         if (text == word) count++;
     }
     cout << count << endl;
