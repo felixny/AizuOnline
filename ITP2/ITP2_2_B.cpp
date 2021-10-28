@@ -1,9 +1,11 @@
-// ITP2_2_A
+// ITP2_2_B
 #include <deque>
 #include <iostream>
 #include <list>
 #include <stack>
 #include <vector>
+#include <queue>
+
 
 using namespace std;
 
@@ -12,7 +14,7 @@ int main() {
   int command, num;
   int x;
   int n;
-  stack<int> v[2000];
+  queue<int> v[2000];
   cin >> n >> q;
 
   for (int i = 0; i < q; i++) {
@@ -25,7 +27,7 @@ int main() {
       cin >> num;
 
       if (v[num].size() != 0) {
-        cout << v[num].top() << endl;
+        cout << v[num].front() << endl;
       }
 
     } else {
