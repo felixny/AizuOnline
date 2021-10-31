@@ -1,4 +1,4 @@
-// ≈
+// ITP2_8_A
 #include <algorithm>
 #include <iostream>
 #include <map>
